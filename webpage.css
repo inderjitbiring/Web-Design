@@ -1,0 +1,314 @@
+body {
+font-family:sans-serif;
+font-size: 16px;
+line-height:1.5em;
+margin:0;
+padding:0;
+}
+
+h1, h2,h3 {
+font-family: 'Cabin Sketch', cursive;
+
+}
+
+h2,h3 {
+color:738AFF
+}
+
+img {
+width:100%;
+}
+
+
+.primary-text {
+ color:cornflowerblue;
+}
+
+/* main header */
+
+#main-header {
+border-bottom: 1px solid cornflowerblue;
+}
+
+#main-header h1 {
+
+}
+
+/* navbar */
+
+#navbar {
+text-transform: uppercase;
+}
+
+#navbar li {
+list-style-type: none;
+display: inline;
+padding-right: 30px;
+}
+
+#navbar a {
+text-decoration: none;
+color: gainsboro;
+}
+
+#navbar li.current, #navbar a:hover {
+color: cornflowerblue;
+border-bottom: 2px solid cornflowerblue;
+padding-bottom: 5px;
+	
+}
+
+
+/* mini-header */
+
+#mini-header {
+background-color:
+color:white;
+padding-left:20px;
+	
+}
+
+/* about */
+
+#about {
+background-color:lightgrey;
+font-weight:100;
+}
+
+
+/* showcase */
+
+#showcase {
+background: url(images/showcase.jpg) no-repeat center center;
+	
+border-bottom:1px solid cornflowerblue;
+margin-bottom: 40px;
+}
+
+#showcase .row {
+height:600px;
+}
+
+#showcase h1 {
+font-size: 50px;
+padding-bottom: 10px;
+}
+#showcase p {
+font-size: 22px;
+
+}
+
+#showcase .content {
+background-color:cornflowerblue;
+border-radius: 100px;
+padding:10px;
+opacity:0.9;
+color:antiquewhite;
+animation: drop 3s ease;
+	
+}
+
+/*features*/
+
+
+#features i {
+color:mediumseagreen;
+padding-bottom:20px;
+font-size:80px;
+}
+
+
+#features h2 {
+font-size: 40px;
+margin:0;
+padding-bottom: 20px;
+}
+
+#features p {
+margin:0;
+color:#888;
+margin-bottom: 50px;
+}
+
+/* pic section*/
+
+
+#pic i {
+color:greenyellow;
+}
+#pic {
+background-color:darkgrey;
+color:white
+
+	
+}
+
+#pic li {
+list-style-type: none;
+line-height: 3em;
+font-size: 20px;
+
+}
+
+/* contact section*/
+
+#contact i {
+color:mediumseagreen
+}
+#contact {
+font-weight:100;
+}
+
+#contact h3 {
+text-transform: uppercase;
+}
+
+#contact ul {
+list-style-type: none;
+line-height: 2em;
+}
+
+#contact button {
+color: white;
+background-color:black;
+padding:9px;
+border:none;
+font-size:16px;
+}
+
+#contact input[type="text"]{
+font-size: 16px;
+padding:5px;
+}
+
+/* footer*/
+
+#footer {
+background-color: cornflowerblue;
+color:white;
+}
+
+/* form contact*/
+
+#form-section {
+background-color:lightgrey;
+color:cornflowerblue;
+
+}
+
+#form-section input[type="text"] {
+width: 40%;
+height: 40px;
+margin-bottom:20px;
+}
+
+#form-section textarea {
+width: 40%;
+height: 120px;
+}
+
+
+
+#form-section button {
+width: 40%;
+height: 40px;
+cursor: pointer;
+font-size: 16px;
+padding:8px;
+color:cornflowerblue;
+}
+
+
+
+
+
+
+
+@keyframes drop {
+	0% {
+		opacity: 0;
+		transform: translateY(-160px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+
+
+
+
+
+
+
+
+/* media queries */
+
+@media (max-width:720px) {
+
+#showcase h1 {
+font-size: 35px;
+padding:14px;
+}
+	
+#features p {
+margin: 0 30px;
+line-height: 2em;
+margin-bottom: 20px;
+}
+	
+#about p {
+font-size: 17px;
+margin: 0 20px;
+line-height: 2em;
+	
+}	
+
+#form-section textarea{
+	width: 100%;
+}
+	
+#form-section input[type="text"]{
+	width: 100%;
+}
+	
+#form-section button {
+	width: 100%;
+}
+
+	#contact {
+	
+	}	
+	
+	#pic {
+	
+	}	
+	
+}	
+
+
+
+
+
+
+@media (max-width:1100px) {
+
+#main-header h1 {
+font-size: 30px;
+}	
+
+#contact button, input {
+width:90%;
+margin-bottom: 8px;
+
+}
+
+#contact i, li,p {
+font-size: 15px;
+line-height: 2em;
+}
+	
+}
+
+
